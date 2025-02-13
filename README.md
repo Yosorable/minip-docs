@@ -1,0 +1,2 @@
+# minip-docs
+Minip documentation
