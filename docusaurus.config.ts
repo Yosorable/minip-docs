@@ -5,8 +5,11 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "Minip",
-  tagline: "Build native-like applications easily.",
+  // title: "Minip",
+  title: "Documentation Coming Soon",
+  // tagline: "Build native-like applications easily.",
+  tagline:
+    "We are currently working on the documentation. Please check back later!",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -37,8 +40,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/Yosorable/minip-docs/tree/main",
         },
         theme: {
