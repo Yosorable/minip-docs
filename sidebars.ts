@@ -53,6 +53,20 @@ const sidebars: SidebarsConfig = {
       label: "Introduction",
       id: "api/intro",
     },
+    {
+      type: "category",
+      label: "Route",
+      link: {
+        type: "generated-index",
+      },
+      items: [
+        "api/route/navigate-to",
+        "api/route/navigate-back",
+        "api/route/redirect-to",
+        "api/route/open-website",
+        "api/route/open-settings",
+      ],
+    },
   ],
 };
 

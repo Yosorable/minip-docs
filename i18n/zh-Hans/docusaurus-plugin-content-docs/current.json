@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
+    "message": "Tutorial - Basics",
+    "description": "The label for category Tutorial - Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Extras": {
+    "message": "Tutorial - Extras",
+    "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.Introduction": {
+    "message": "介绍",
+    "description": "The label for the doc item Introduction in sidebar tutorialSidebar, linking to the doc tutorial/intro"
+  },
+  "sidebar.apiSidebar.doc.Introduction": {
+    "message": "介绍",
+    "description": "The label for the doc item Introduction in sidebar apiSidebar, linking to the doc api/intro"
+  },
+  "sidebar.apiSidebar.category.Route": {
+    "message": "路由",
+    "description": "路由API"
+  }
+}

@@ -5,15 +5,13 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  // title: "Minip",
-  title: "Documentation Coming Soon",
+  title: "Documentation for Minip",
   // tagline: "Build native-like applications easily.",
-  tagline:
-    "We are currently working on the documentation. Please check back later!",
+  tagline: "Please check the tutorial and API pages.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://minip.lzyl.win",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -31,7 +29,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "zh-Hans"],
   },
 
   presets: [
@@ -73,6 +71,10 @@ const config: Config = {
           sidebarId: "apiSidebar",
           position: "left",
           label: "API",
+        },
+        {
+          type: "localeDropdown",
+          position: "right",
         },
         {
           href: "https://github.com/Yosorable/minip",
