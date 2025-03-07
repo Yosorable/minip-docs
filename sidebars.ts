@@ -67,6 +67,27 @@ const sidebars: SidebarsConfig = {
         "api/route/open-settings",
       ],
     },
+    {
+      type: "category",
+      label: "UI",
+      link: {
+        type: "generated-index",
+      },
+      items: [
+        "api/ui/set-navigationbar-title",
+        "api/ui/enable-pulldown-refresh",
+        "api/ui/disable-pulldown-refresh",
+        "api/ui/start-pulldown-refresh",
+        "api/ui/on-pulldown-refresh",
+        "api/ui/stop-pulldown-refresh",
+        "api/ui/show-hud",
+        "api/ui/hide-hud",
+        "api/ui/show-alert",
+        "api/ui/show-picker",
+        "api/ui/preview-image",
+        "api/ui/preview-video",
+      ],
+    },
   ],
 };
 

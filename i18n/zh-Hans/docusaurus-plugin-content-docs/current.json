@@ -22,5 +22,9 @@
   "sidebar.apiSidebar.category.Route": {
     "message": "路由",
     "description": "路由API"
+  },
+  "sidebar.apiSidebar.category.UI": {
+    "message": "UI",
+    "description": "界面API"
   }
 }
