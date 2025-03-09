@@ -2,6 +2,7 @@ import { useEffect, useState, type ReactNode } from "react";
 import Layout from "@theme/Layout";
 
 export default function Download(): ReactNode {
+  const [handling, setHandling] = useState(true);
   const [valid, setValid] = useState(false);
   const [url, setURL] = useState("");
   useEffect(() => {
@@ -11,7 +12,7 @@ export default function Download(): ReactNode {
     try {
       new URL(u);
       setValid(true);
-      const downURL = "minip://down/" + u;
+      const downURL = "minip://install/" + u;
       setURL(downURL);
       window.location.href = downURL;
     } catch {
@@ -30,14 +31,17 @@ export default function Download(): ReactNode {
           flexDirection: "column",
         }}
       >
-        {valid && (
+        {handling && <p>Please wait</p>}
+        {!handling && (
           <>
-            <p>
-              Please wait or <a href={url}>Click here</a>
-            </p>
+            {valid && (
+              <p>
+                Please wait or <a href={url}>Click here</a>
+              </p>
+            )}
+            {!valid && <p>"{url}" is not a valid url.</p>}
           </>
         )}
-        {!valid && <p>"{url}" is not a valid url.</p>}
       </div>
     </Layout>
   );
