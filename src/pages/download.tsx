@@ -18,6 +18,7 @@ export default function Download(): ReactNode {
     } catch {
       setURL(u);
     }
+    setHandling(false);
   });
   return (
     <Layout title="Download" description="Mini App Download Page">
